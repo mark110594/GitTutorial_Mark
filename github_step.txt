@@ -1,0 +1,41 @@
+GIT STEP
+1.git init
+2.git status (check if may changes)
+3.git add
+
+U means d pa sya na commit sa git
+A naman kapag na add na using git add
+
+4.git rm --cached index.html (U ulit sya) (rm means remove)
+5.git push (for github papasok lahat ng bagong gawa na html or css tsaka update pang last e execute) 
+6.git add . (pag may dot lahat ng files mag kaka changes)
+7.git commit -m "Inintial commit" (add with comment)
+8.git push -u origin main (papunta sa git or repository)
+
+M kapag may laman na html mo
+8.git add . && git commit -m "added home.html and update"(pwede sabay git execute update ang commit)
+
+pag push una muna num 8 then 5 to add in our git account
+
+example nag crush o nasira laptop natin
+
+solve
+1.punta sa gitaccount search project then clone or download
+2.open git bash
+3.type git clone then insert yung link galing github(kinuha sa clone)
+
+add .gitignore in html para sa mga hindi naman imfortant files
+example sa loob nya insert natin config.js para ma ignore
+
+9. pag may bagong gawa n repo sa github mismo hindi makapag git push pag nag edit sa visual code
+   gagamit na ng
+10. git pull (makukuha ang changes galing sa github mismo)
+11. create branch (ex. gagawa ng new features like contacts)
+   a. git checkout -b feature/contacts(create new branch)
+   b. git checkout master (para malipat sa ibang branch ganun din sa iba) wala ng -b kasi for create lang to ng branch
+12. pag bagong gawa ang branch need muna mag...
+    a. git push --set -upstream origin feature/contacts
+13. pagsamahin ang new branch sa master default (merge)
+    a. go to gethub and click compare & pull request
+    b. create pull request 
+    c. merge pull request
